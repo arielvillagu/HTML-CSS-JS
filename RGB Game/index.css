@@ -1,0 +1,103 @@
+body{
+	background: url("gif/Colors.gif") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+header{
+  	max-width: 100%;
+	text-align: center
+}
+.RGB{
+	text-align: center;
+	font-style: oblique;
+	font-size: 250%;
+	font-family: Helvetica,Verdana,Monaco,sans-serif;
+}
+.juego{
+	display: flex;
+	flex-wrap: wrap;
+ 	justify-content: space-around;
+}
+.butoniano{
+	width: 12.5%;
+	height: 10em;
+	border:15px 15px solid #f3961c transparent transparent;
+	border-radius: 50%;
+}
+.texto{
+	font-size: 200%;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.continue{
+	text-align: center;
+}
+#fieldset{
+
+	margin:auto;
+ 	max-width: 50%;
+ 	height: 30em;
+ 	border-radius: 10em; 
+ 	-moz-border-radius: 10em;
+  	-webkit-border-radius: 10em;
+  	background:#EEE8AA;
+  	padding: 5%;
+  	overflow:auto;
+	/*background: url(gif/colors.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+#titulo{
+	text-align: center;
+	font-size: xx-large;
+}
+#vidas{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 200%;
+	text-align: center;
+}
+#opciones{
+	text-align: center;
+	list-style: none;
+	background-position: 50%;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin: 0 auto;
+}
+#botonEasy{
+	width: 30%;
+}
+#botonHard{
+	width: 30%;
+}
+#palabra{
+	text-align: center;
+}
+#continuar{
+	background: url(imagen/continuar.jpg);
+	width: 20%;
+}
+#reset{
+	text-align: center;
+	width: 40%;
+}
+
+/*@media screen and (max-width:1000px) {
+	#fieldset{
+	margin:auto;
+ 	max-width: 50%;
+ 	height: 500em;
+ 	border-radius: 10em; 
+ 	-moz-border-radius: 10em;
+  	-webkit-border-radius: 10em;
+  	background:#EEE8AA;
+  	padding: 5%;
+  	overflow:auto;
+	/*background: url(gif/colors.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/

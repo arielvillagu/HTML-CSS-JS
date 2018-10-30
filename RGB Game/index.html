@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego Cuadraditos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript" language="javascript" src="index.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<article>
+			<img src="Imagen/logo2.png" id="logo">
+		</article>
+	</header>
+	<FIELDSET id="fieldset">
+	<section class="wrapper">
+		<section class="main">
+			<article>
+				<audio src="audio/naruto.mp3" autoplay loop></audio>
+			</article>
+			<article class="RGB">
+			</article>
+			<nav id="opciones">
+				<li id="easy">
+					<img src="imagen/easy.png" onclick="crearBotones(3)" id="botonEasy">
+				</li>
+				<li id="hard">
+					<img src="imagen/hard.png" onclick="crearBotones(6)" id="botonHard">
+				</li>
+			</nav>
+			<article id="vidas">
+			</article>
+			<article class="juego">
+			</article>
+			<article class="texto">
+				<script>seDice("Elija dificultad!");</script>
+			</article>
+			<article class="continue">
+			</article>
+		</section>
+	</section>
+	</FIELDSET>
+</body>
+</html>
